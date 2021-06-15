@@ -1,0 +1,36 @@
+import UIKit 
+var greeting = "Hello, world"
+let something = 17
+
+let names = ["steve", "Josephine", "victoria", "ralph"]
+
+func doesArrayInclude(string: Strin)  {
+  if names.contains(String)  {
+  print ("Yes.\(string) is in the array")
+  }  else  {
+    print("Not so fast")
+    }
+}
+
+doesArrayIncude(string: "Mike")
+doesArrayIncude(string: "Bob")
+doesArrayIncude(string:"Josephine")
+
+/* result:
+Not so fast
+Not so fast
+Yes, Josephine is in the array.
+*/
+
+func doesArrayInclude(string:String)  {
+switch string.count  {
+case 0:
+  print("there is no string")
+case 1:
+  print("there is a small string")
+case 4:
+  print("that is a longer string")
+default:
+  print("the string exists")
+  }
+}  
